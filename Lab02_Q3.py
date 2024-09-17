@@ -1,7 +1,7 @@
 import mysql.connector
 import time
 
-conn = mysql.connector.connect(host='localhost', user='root', password='saurav11ax0', database='ArtBuySell')
+conn = mysql.connector.connect(host='localhost', user='root', password='password', database='ArtBuySell')
 cursor = conn.cursor()
 
 def execute_query(query):
